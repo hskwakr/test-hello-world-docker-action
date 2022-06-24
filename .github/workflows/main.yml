@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: hskwakr/hello-world-docker-action
+        uses: hskwakr/hello-world-docker-action@v0.1.0
         with:
           who-to-greet: 'Mona the Octocat'
       # `hello` ステップからの出力を使用する
