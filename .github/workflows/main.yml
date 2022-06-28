@@ -15,7 +15,7 @@ jobs:
         run: echo "The time was ${{ steps.hello.outputs.time }}"
 
       - name: Remove action
-        uses: hskwakr/remove-action@v0.0.4
+        uses: hskwakr/remove-action@v0.0.5
         with:
           dir: 'dir'
           files: |
