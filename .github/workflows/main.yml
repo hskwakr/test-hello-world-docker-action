@@ -21,3 +21,6 @@ jobs:
           files: |
             *.foo
             bar.*
+
+      - name: Remove action
+        run: ls .
