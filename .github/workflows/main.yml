@@ -13,3 +13,11 @@ jobs:
       # `hello` ステップからの出力を使用する
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
+
+      - name: Remove action
+        uses: hskwakr/remove-action@v0.0.1
+        with:
+          dir: 'dir'
+          files: |
+            *.foo
+            bar.*
